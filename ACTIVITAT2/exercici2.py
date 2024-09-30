@@ -23,7 +23,7 @@ while iva_parcentatge not in [4, 10, 21]:
     iva_parcentatge = int(input("Introdueix el % d'iva (4%, 10%, 21%):"))
 
 #Calcul del valor amb l'iva afegit
-valor_final = calcular_iva(valor, iva_percentatge)
+valor_final = calcular_iva(valor, iva_parcentatge)
 
 #Resultat
 print(f"Valor original: {valor}€")
