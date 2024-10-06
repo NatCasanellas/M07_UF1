@@ -11,6 +11,6 @@ numero = int(input("Introdueix un numero entre 1 i 100: "))
 
 if 10 <= numero <= 100:
     #creem la tupla amb els numeros de fins el numero usuari
-    tupla_numeros = tuple(range(1,numoero + 1)) 
+    tupla_numeros = tuple(range(1,numero + 1)) 
     #mostra els numeros del 1 al indicat l'usuari en una tupla
     print(f"Els numeros del 1 al {numero} es: {tupla_numeros} ")
