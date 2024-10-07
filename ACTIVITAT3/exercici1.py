@@ -13,4 +13,4 @@ if 10 <= numero <= 100:
     #creem la tupla amb els numeros de fins el numero usuari
     tupla_numeros = tuple(range(1,numero + 1)) 
     #mostra els numeros del 1 al indicat l'usuari en una tupla
-    print(f"Els numeros del 1 al {numero} es: {tupla_numeros} ")
+    print(f"Els numeros del 1 al {numero} son: {tupla_numeros}")
