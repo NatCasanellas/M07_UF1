@@ -1,5 +1,5 @@
 '''
-(C) Trucar a l’exercici 3 i mostrar per pantalla:
+Trucar a l’exercici 3 i mostrar per pantalla:
 La matriu indicada per l’usuari.
 El valor màxim.
 El valor mínim.
@@ -17,4 +17,18 @@ La dimensió (reshape) d’aquesta matriu se li demana a l’usuari per consola.
 3.Una funció que retorni el valor mínim de la matriu.
 
 '''
+import numpy as np
 
+def matriu_random():
+    #demanar usuari dimensions
+    files = int(input("Introdueix el nombre de files: "))
+    columnes = int(input("Introdueix el nombre de columnes: "))
+    
+    #matriu amb numeros aleatoris de 0 a 100
+    matriu = np.random.randit(0, 101, size=(files, columnes))
+
+    #mostra matriu
+    print("Matriu generada: ")
+    print(matriu)
+
+    return matriu
