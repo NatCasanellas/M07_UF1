@@ -16,5 +16,5 @@ La dimensió (reshape) d’aquesta matriu se li demana a l’usuari per consola.
 2.Una funció que retorni el valor màxim de la matriu.
 3.Una funció que retorni el valor mínim de la matriu.
 
-
 '''
+
