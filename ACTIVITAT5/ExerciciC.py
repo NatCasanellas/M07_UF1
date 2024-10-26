@@ -13,8 +13,6 @@ import matplotlib.pyplot as plt
 arxiu_test = './ACTIVITAT5/test.csv'
 test = pd.read_csv(arxiu_test) #data frame
 
-#arxiu_train = 'train.csv'
-#train = pd.read_csv(arxiu_train) #data frame
 
 #llista ID's
 ids = [3, 13, 34, 56, 70, 85, 110, 120, 210, 400]
