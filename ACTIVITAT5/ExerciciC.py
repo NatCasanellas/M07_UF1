@@ -19,7 +19,7 @@ ids = [3, 13, 34, 56, 70, 85, 110, 120, 210, 400]
 
 
 #Funcio 1: mostra el clock speed segons l'ID del mobil
-def mostrar_clock_speed(train, ids):
+def mostrar_clock_speed(test, ids):
         return test[test['id'].isin(ids)][['id', 'clock_speed']]
 
 
@@ -64,9 +64,10 @@ def main(test, ids):
         axs[2].set_ylabel("Battery Power")
         axs[2].legend(["Battery Power"])
 
-        #mostra la grafica
-        plt.tight_layout()
-        plt.show()
 
-        #executar funcio main
-        main(test, ids)
+#mostra la grafica
+plt.tight_layout()
+plt.show()
+
+#executar funcio main
+main(test, ids)
